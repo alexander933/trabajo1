@@ -3,7 +3,7 @@ def calculadora(): #define la funcion, tipo de dato y variable a ingresar.
     num2 = float(input("Ingrese el segundo número: ")) #faltaba el input
     operacion = input("Ingrese la operación (+, -, *, /): ")
 
-    if operacion == '+':
+    if operacion == '+': #dependiendo a lo que sea igual operacion hacer un calculo sino es un operador mostrar falla.
         resultado = num1 + num2 #variable incorrecta
     elif operacion == '-':
         resultado = num1 - num2
@@ -14,6 +14,6 @@ def calculadora(): #define la funcion, tipo de dato y variable a ingresar.
     else:
         resultado = "Operación no válida"
 
-    print ("Resultado: ", resultado) #faltaba una coma
+    print ("Resultado: ", resultado) #faltaba una coma #imprimir el resultado de la operacion.
 
-calculadora() #error de escritura
+calculadora() #error de escritura #llama la funcion
