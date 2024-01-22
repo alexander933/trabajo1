@@ -1,4 +1,4 @@
-def contar_palabra(texto, palabra)
+def contar_palabra(texto, palabra) #define la funcion
     return texto.lower().split().count(palabra.lower())
 
 texto = "Este es un ejemplo de texto. Este texto tiene palabras repetidas."
