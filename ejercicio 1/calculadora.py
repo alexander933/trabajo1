@@ -14,6 +14,6 @@ def calculadora(): #define la funcion, tipo de dato y variable a ingresar.
     else:
         resultado = "Operación no válida"
 
-    print ("Resultado: ", resultado) #faltaba una coma #imprimir el resultado de la operacion.
+    print ("Resultado: ", resultado) #faltaba una coma #imprimir el resultado de la operacion
 
 calculadora() #error de escritura #llama la funcion
